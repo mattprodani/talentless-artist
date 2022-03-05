@@ -10,6 +10,6 @@ window.onload = function(){
     var i, e, d;
     for (i = 0; i < descendents.length; ++i) {
         d =  ("" + arr[i]).padStart(3);
-        descendents[i].src = "/libraries/gogh_512_52i/generated/seed0" + d + ".png";
+        descendents[i].src = "../libraries/gogh_512_52i/generated/seed0" + d + ".png";
     }
 }
