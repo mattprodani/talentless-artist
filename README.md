@@ -1,9 +1,19 @@
 # talentless-artist
-A work in progress attempting to create a machine learning model that can generate realistic paintings.
+
+A Deep Learning network that generates images of paintings based on Van Gogh's style.
+
+Trained on V100 GPUs using Google Colab Pro and the StyleGAN2 framework for PyTorch provided by NVidia.
+
+Sample images generated are available in the repo as well as snapshots of the latest network pickle files
+
+The ArtistGAN notebook contains instructions about how to recreate a similar model
 
 
-Purpose:
 
-Using NVidia's StyleGAN to train a Generative Adversarial Network using public domain paintings.
+Thanks to all the resources made available for this project:
 
-This is an ongoing project and will be updated with licensing and credit information overtime.
+https://github.com/NVlabs/stylegan2-ada-pytorch for the network training repo.
+
+https://www.kaggle.com/ikarus777/best-artworks-of-all-time for compiling artwork to use in this project.
+
+www.artchallenge.ru for providing the artwork compiled.
