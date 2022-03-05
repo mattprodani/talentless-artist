@@ -1,4 +1,5 @@
-window.onload = function(){
+window.onload = shuffle;
+function shuffle(){
     var arr = [];
     while(arr.length < 12){
         var r = Math.floor(Math.random() * 380) + 100;
