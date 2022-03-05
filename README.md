@@ -8,7 +8,6 @@
     <a href="https://mattprodani.github.io/talentless-artist/web/index.html"><strong>View the website»</strong></a>
     <br />
   </p>
-</div>
 
 
 
